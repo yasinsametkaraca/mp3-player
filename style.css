@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 600px;
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.musicplaying {
+  background-color: teal;
+  color: #fff;
+}
+.musicplaying{
+  cursor: pointer;
+}
+.volume-container i {
+  margin-right: 7px;
+}
